@@ -1,5 +1,22 @@
 {
-  "devDependencies": {
-    "typescript": "^4.9.4"
-  }
+    "name": "backend-bot-crypto",
+	"version": "0.1.0",
+	"description": "Crypto bot node.js application",
+	"main": "./src/index.ts",
+	"scripts": {
+		"start": "node ./src/index.ts",
+		"prettier-format": "prettier --config .prettierrc src/**/*.ts --write"
+	},
+	"dependencies": {
+		"express": "^4.13.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JB-organization/backend-bot-crypto"
+	},
+	"keywords": [
+		"node",
+		"websocket",
+		"typescript"
+	]
 }
